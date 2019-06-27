@@ -1,0 +1,98 @@
+﻿@model Conexion.Models.Libros
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Libros</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.desc_libro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.desc_libro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.urlimagen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.urlimagen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.npaginas)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.npaginas)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Autores.nom_autor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Autores.nom_autor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Categorias.desc_cat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categorias.desc_cat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Editoriales.desc_edit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Editoriales.desc_edit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Idiomas.desc_idiom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Idiomas.desc_idiom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sagas1.nombre_saga)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sagas1.nombre_saga)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tapa1.nom_tapa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tapa1.nom_tapa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tipo_Libro.desc_tipo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tipo_Libro.desc_tipo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.isbn }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,26 @@
+﻿@model Conexion.Models.Idiomas
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Idiomas</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.desc_idiom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.desc_idiom)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_idiom }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
