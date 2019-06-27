@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - DondeLoPillo</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body align="center">
+    @{ 
+        ViewBag.Title = "Index";
+    }
+    <div>
+        <table border="0" bgcolor="#F2F2F2" width="100%" height="100%">
+            <tr>
+                <td rowspan="2">
+                    <img src="https://i.ibb.co/DWgW8dD/logo.png" alt="logo" width="200" height="200">
+                </td>
+                <td>
+                    <table border="0" bordercolor="black" align="center" bgcolor="#333" width="100%" height="100%">
+                        <tr align="center">
+                            <td>
+                                <ul>
+                                    <li>
+                                        <h3><a href="/Portada"><font color="red">INICIO</font></a></h3>
+                                    </li>
+                                    <li>
+                                        <h3><a href="http://localhost:64253/Nosotros/Nosotros"><font color="red">¿QUIENES SOMOS?</font></a></h3>
+                                    </li>
+
+                                    <li>
+                                        <h3><a href="http://localhost:64253/Contacto/Contacto"><font color="red">CONTACTO</font></a></h3>
+                                    </li>
+
+                                    <li>
+                                        <h3><a href="http://localhost:64253/FAQ/FAQ"><font color="red">PREGUNTAS FRECUENTES</font></a></h3>
+                                    </li>
+
+                                    <li>
+                                        <h3><a href="http://localhost:64253/Enlaces/Enlaces"><font color="red">ENLACES DE INTERÉS</font></a></h3>
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <p>Busca por Nombre, Autor o Categoria:</p>
+                    <form>
+                        <input type="text" name="Busqueda..." placeholder="Busqueda...">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h1><font face="verdana" color="#DF7818" size="10">dondelopillo.cl</font></h1>
+                </td>
+            </tr>
+            <tr>
+                <td valign="top" bgcolor="#dbdbdb" style="border-style: solid">
+                    <h3>Categorias</h3>
+                    </br>
+                        @foreach (Conexion.Models.Categorias cat in ViewBag.Categorias)
+                        {
+                        <p><font size="3">@cat.desc_cat</font></p>
+                        }
+                </td>
+                <td valign="top">
+
+                    <div class="container body-content">
+                        @RenderBody()
+                    </div>
+                </td>
+                <td>
+                    <table border="0" width="100%" height="100%">
+                        <tr>
+                            <td style="border-style: solid">
+                                <img src="~/Imagenes/ad.jpg" width="300" height="500" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="border-style: solid">
+                                <img src="~/Imagenes/ados.jpg" width="300" height="500" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+<footer>
+    <p>&copy; @DateTime.Now.Year - dondelopillo.cl</p>
+    <p><a href="http://localhost:64244">Administración</a></p>
+</footer>
+</html>

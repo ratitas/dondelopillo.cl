@@ -1,0 +1,55 @@
+﻿@model List<Conexion.Models.Tiendas>
+@{
+    ViewBag.Title = "Enlaces";
+}
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+
+        a.links {
+            color: #000000
+        }
+
+            a.links:active {
+                color: #000000
+            }
+
+            a.links:link {
+                color: #000000
+            }
+
+            a.links:visited {
+                color: #000000
+            }
+
+            a.links:hover {
+                color: #D86F00
+            }
+    </style>
+</head>
+<body>
+    <h1>Tiendas Asociadas</h1>
+    </br></br>
+    <div id="portada">
+        @foreach (var tien in Model)
+        {
+            <article class="col-md-3 col-lg-pull-1 m-1 text-center">
+                <div>
+                    <span><font size="5"><b>@tien.desc_tienda</b></font></span>
+                </div>
+                @if (tien.tipo_tienda == 1)
+                {
+                    <footer>
+                        <span><a href="http://@tien.direc_tienda" target="_blank">@tien.direc_tienda</a></span>
+                    </footer>
+                }
+                else
+                {
+                    <span>@tien.direc_tienda</span>
+                }
+            </article>
+        }
+    </div>
+</body>

@@ -1,0 +1,104 @@
+﻿@model Conexion.Models.Libros
+@{
+    ViewBag.Title = "Cotizacion";
+}
+<title>Libro Cotizado</title>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        a:link.tabla1 {
+            color: #000000;
+            text-decoration: none;
+        }
+
+        tr.tabla1 {
+            text-align: center;
+            height: 5px;
+        }
+
+        table.tabla1 {
+            border-collapse: collapse;
+            background-color: white;
+            text-align: center;
+            height: 100%;
+            width: 100%;
+        }
+
+        th.tabla1 {
+            background-color: #DF7818;
+            color: white;
+            height: 10px;
+            text-align: left;
+            padding: 8px;
+        }
+
+        td.tabla1 {
+            height: 10px;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even).tabla1 {
+            background-color: #f2f2f2
+        }
+
+        .texto {
+            font-size: 25px;
+            color: gray
+        }
+
+        .texto2 {
+            font-size: 20px;
+            color: black
+        }
+    </style>
+</head>
+<body>
+    <div class="tabla1">
+        <table width="100%" height="100%" border="0" class="tabla1">
+            <tr class="tabla1">
+                <td width="20%" align="left" class="tabla1">
+                    <img src="@Html.DisplayFor(model1 => model1.urlimagen)" width="232" height="360" />
+                </td>
+                <td width="80%" class="tabla1">
+                    <table border="0" class="tabla1">
+                        <thead>
+                            <tr class="tabla1">
+                                <th colspan="2" class="tabla1"><font size="6">Disponible en:</font></br></br></th>
+                            </tr>
+                            <tr class="tabla1">
+                                <th class="tabla1">Tienda</th>
+                                <th class="tabla1">Precio</th>
+                            </tr>
+                        </thead>
+                        @foreach (Conexion.Models.Libro_tienda tienlib in ViewBag.Libro_tienda)
+                        {
+                                <tr class="tabla1">
+                                    <td class="tabla1">
+                                        <a href="@tienlib.urllibro" target="_blank">@tienlib.Tiendas.desc_tienda</a>
+                                    </td>
+                                    <td class="tabla1">
+                                        <a href="@tienlib.urllibro" target="_blank">@tienlib.precio</a>
+                                    </td>
+                                </tr>
+                        }
+                    </table>
+                </td>
+            </tr>
+            <tr class="tabla1">
+                <td colspan="2" align="left" class="tabla1">
+                    <span class="texto">Libro:</span>
+                    <span class="texto2">@Html.DisplayFor(model1 => model1.desc_libro)</span></br></br>
+                    ISBN: @Html.DisplayFor(model1 => model1.isbn) </br></br>
+                    Paginas: @Html.DisplayFor(model1 => model1.npaginas) </br></br>
+                    Autor: @Html.DisplayFor(model1 => model1.Autores.nom_autor) </br></br>
+                    Editorial: @Html.DisplayFor(model1 => model1.Editoriales.desc_edit) </br></br>
+                    Idioma: @Html.DisplayFor(model1 => model1.Idiomas.desc_idiom) </br></br>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+

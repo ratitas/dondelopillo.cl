@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Conexion.Models.Categorias>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Administrador de Categorías</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.desc_cat)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.desc_cat)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_cat }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_cat }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_cat })
+        </td>
+    </tr>
+}
+
+</table>

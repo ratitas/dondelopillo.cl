@@ -1,0 +1,251 @@
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\ApplicationInsights.config
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\csc.exe
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\csc.exe.config
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\csc.rsp
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\csi.exe
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\csi.rsp
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\System.AppContext.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\System.Collections.Immutable.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\System.IO.FileSystem.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\vbc.exe
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\vbc.exe.config
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\vbc.rsp
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\VBCSCompiler.exe
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\roslyn\VBCSCompiler.exe.config
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\DLPCliente.dll.config
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\DLPCliente.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\DLPCliente.pdb
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Antlr3.Runtime.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\EntityFramework.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\EntityFramework.SqlServer.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.AI.Web.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.AI.WindowsServer.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.ApplicationInsights.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.Web.Infrastructure.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Newtonsoft.Json.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.Helpers.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.Mvc.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.Optimization.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.Razor.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.WebPages.Deployment.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.WebPages.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.WebPages.Razor.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\WebGrease.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\EntityFramework.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\EntityFramework.SqlServer.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.Helpers.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.Mvc.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.Optimization.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.Razor.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.WebPages.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.WebPages.Deployment.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\System.Web.WebPages.Razor.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Antlr3.Runtime.pdb
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Newtonsoft.Json.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.ApplicationInsights.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.AI.WindowsServer.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Microsoft.AI.Web.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\es\System.Web.Helpers.resources.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\es\System.Web.Mvc.resources.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\es\System.Web.Optimization.resources.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\es\System.Web.Razor.resources.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\es\System.Web.WebPages.resources.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\es\System.Web.WebPages.Deployment.resources.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\es\System.Web.WebPages.Razor.resources.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\obj\Debug\DLPCliente.csprojResolveAssemblyReference.cache
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\obj\Debug\DLPCliente.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\obj\Debug\DLPCliente.pdb
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Conexion.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Conexion.pdb
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\DLPCliente\bin\Conexion.dll.config
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\ApplicationInsights.config
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\csc.exe
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\csc.exe.config
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\csc.rsp
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\csi.exe
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\csi.rsp
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\System.AppContext.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\System.Collections.Immutable.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\System.Diagnostics.StackTrace.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\System.IO.FileSystem.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\System.IO.FileSystem.Primitives.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\System.Reflection.Metadata.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\vbc.exe
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\vbc.exe.config
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\vbc.rsp
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\VBCSCompiler.exe
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\VBCSCompiler.exe.config
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\DLPCliente.dll.config
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\DLPCliente.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\DLPCliente.pdb
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Antlr3.Runtime.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Conexion.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\EntityFramework.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\EntityFramework.SqlServer.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.Agent.Intercept.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.DependencyCollector.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.Web.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.WindowsServer.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.ApplicationInsights.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.Web.Infrastructure.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Newtonsoft.Json.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Helpers.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Mvc.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Optimization.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Razor.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.WebPages.Deployment.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.WebPages.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.WebPages.Razor.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\WebGrease.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Conexion.pdb
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Conexion.dll.config
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\EntityFramework.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\EntityFramework.SqlServer.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Helpers.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Mvc.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Optimization.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Razor.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.WebPages.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.WebPages.Deployment.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.WebPages.Razor.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Antlr3.Runtime.pdb
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Newtonsoft.Json.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.ApplicationInsights.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.DependencyCollector.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.WindowsServer.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.Web.xml
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.Helpers.resources.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.Mvc.resources.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.Optimization.resources.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.Razor.resources.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.WebPages.resources.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.WebPages.Deployment.resources.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.WebPages.Razor.resources.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\obj\Debug\DLPCliente.csprojAssemblyReference.cache
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\obj\Debug\DLPCliente.csproj.CoreCompileInputs.cache
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\obj\Debug\DLPCliente.csproj.CopyComplete
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\obj\Debug\DLPCliente.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\obj\Debug\DLPCliente.pdb
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\DLPAdmin.dll
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\DLPAdmin.pdb
+I:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\DLPAdmin.dll.config
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\ApplicationInsights.config
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\csc.exe
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\csc.exe.config
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\csc.rsp
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\csi.exe
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\csi.rsp
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\System.AppContext.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\System.Collections.Immutable.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\System.IO.FileSystem.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\System.Reflection.Metadata.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\vbc.exe
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\vbc.exe.config
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\vbc.rsp
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\VBCSCompiler.exe
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\roslyn\VBCSCompiler.exe.config
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\DLPCliente.dll.config
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\DLPCliente.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\DLPCliente.pdb
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Antlr3.Runtime.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Conexion.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\DLPAdmin.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\EntityFramework.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\EntityFramework.SqlServer.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.DependencyCollector.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.Web.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.WindowsServer.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.ApplicationInsights.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.Web.Infrastructure.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Newtonsoft.Json.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Helpers.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Mvc.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Optimization.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Razor.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.WebPages.Deployment.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.WebPages.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.WebPages.Razor.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\WebGrease.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Conexion.pdb
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Conexion.dll.config
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\DLPAdmin.pdb
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\DLPAdmin.dll.config
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\EntityFramework.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\EntityFramework.SqlServer.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Helpers.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Mvc.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Optimization.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.Razor.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.WebPages.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.WebPages.Deployment.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\System.Web.WebPages.Razor.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Antlr3.Runtime.pdb
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Newtonsoft.Json.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.ApplicationInsights.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.DependencyCollector.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.WindowsServer.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\Microsoft.AI.Web.xml
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.Helpers.resources.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.Mvc.resources.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.Optimization.resources.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.Razor.resources.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.WebPages.resources.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.WebPages.Deployment.resources.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\bin\es\System.Web.WebPages.Razor.resources.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\obj\Debug\DLPCliente.csprojResolveAssemblyReference.cache
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\obj\Debug\DLPCliente.dll
+E:\Taller de integracion de Software\Prototipo2\DLPCliente\obj\Debug\DLPCliente.pdb
