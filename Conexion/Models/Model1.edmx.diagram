@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f74ce3a196e24c91897ad26eca2631b6" Name="Diagram1">
+        <EntityTypeShape EntityType="LibroOnlineModel.Autores" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibroOnlineModel.Categorias" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibroOnlineModel.Editoriales" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibroOnlineModel.Idiomas" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibroOnlineModel.Libro_tienda" Width="1.5" PointX="7.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibroOnlineModel.Libros" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibroOnlineModel.Nacionalidades" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibroOnlineModel.Sagas" Width="1.5" PointX="3" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibroOnlineModel.Tapa" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibroOnlineModel.Tiendas" Width="1.5" PointX="5.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibroOnlineModel.Tipo_Libro" Width="1.5" PointX="3" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibroOnlineModel.Tipo_Tienda" Width="1.5" PointX="3" PointY="20.625" IsExpanded="true" />
+        <AssociationConnector Association="LibroOnlineModel.FK_Autores_Nacionalidad" ManuallyRouted="false" />
+        <AssociationConnector Association="LibroOnlineModel.FK_Libros_Autores" ManuallyRouted="false" />
+        <AssociationConnector Association="LibroOnlineModel.FK_Libros_Categorias" ManuallyRouted="false" />
+        <AssociationConnector Association="LibroOnlineModel.FK_Libros_Editoriales" ManuallyRouted="false" />
+        <AssociationConnector Association="LibroOnlineModel.FK_Libros_Idiomas" ManuallyRouted="false" />
+        <AssociationConnector Association="LibroOnlineModel.FK_Libro_tienda_Libros1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibroOnlineModel.FK_Libro_tienda_Tiendas1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibroOnlineModel.FK_Libros_Sagas" ManuallyRouted="false" />
+        <AssociationConnector Association="LibroOnlineModel.FK_Libros_Tapa" ManuallyRouted="false" />
+        <AssociationConnector Association="LibroOnlineModel.FK_Libros_Tipo_Libro" ManuallyRouted="false" />
+        <AssociationConnector Association="LibroOnlineModel.FK_Tiendas_Tipo_Tienda" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

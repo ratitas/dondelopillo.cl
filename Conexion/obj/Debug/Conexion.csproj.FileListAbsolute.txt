@@ -1,0 +1,21 @@
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\Conexion\bin\Debug\Conexion.dll.config
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\Conexion\bin\Debug\Conexion.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\Conexion\bin\Debug\Conexion.pdb
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\Conexion\bin\Debug\EntityFramework.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\Conexion\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\Conexion\bin\Debug\EntityFramework.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\Conexion\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\Conexion\obj\Debug\Conexion.dll
+c:\users\tallerespa\documents\visual studio 2017\Projects\Prototipo2\Conexion\obj\Debug\Conexion.pdb
+I:\Taller de integracion de Software\Prototipo2\Conexion\bin\Debug\Conexion.dll.config
+I:\Taller de integracion de Software\Prototipo2\Conexion\bin\Debug\Conexion.dll
+I:\Taller de integracion de Software\Prototipo2\Conexion\bin\Debug\Conexion.pdb
+I:\Taller de integracion de Software\Prototipo2\Conexion\bin\Debug\EntityFramework.dll
+I:\Taller de integracion de Software\Prototipo2\Conexion\bin\Debug\EntityFramework.SqlServer.dll
+I:\Taller de integracion de Software\Prototipo2\Conexion\bin\Debug\EntityFramework.xml
+I:\Taller de integracion de Software\Prototipo2\Conexion\bin\Debug\EntityFramework.SqlServer.xml
+I:\Taller de integracion de Software\Prototipo2\Conexion\obj\Debug\Conexion.csprojAssemblyReference.cache
+I:\Taller de integracion de Software\Prototipo2\Conexion\obj\Debug\Conexion.csproj.CoreCompileInputs.cache
+I:\Taller de integracion de Software\Prototipo2\Conexion\obj\Debug\Conexion.csproj.CopyComplete
+I:\Taller de integracion de Software\Prototipo2\Conexion\obj\Debug\Conexion.dll
+I:\Taller de integracion de Software\Prototipo2\Conexion\obj\Debug\Conexion.pdb

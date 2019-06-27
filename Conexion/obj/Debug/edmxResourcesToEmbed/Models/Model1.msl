@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LibroOnlineModelStoreContainer" CdmEntityContainer="LibroOnlineEntities">
+    <EntitySetMapping Name="Autores">
+      <EntityTypeMapping TypeName="LibroOnlineModel.Autores">
+        <MappingFragment StoreEntitySet="Autores">
+          <ScalarProperty Name="id_autor" ColumnName="id_autor" />
+          <ScalarProperty Name="nom_autor" ColumnName="nom_autor" />
+          <ScalarProperty Name="nacionalidad" ColumnName="nacionalidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categorias">
+      <EntityTypeMapping TypeName="LibroOnlineModel.Categorias">
+        <MappingFragment StoreEntitySet="Categorias">
+          <ScalarProperty Name="id_cat" ColumnName="id_cat" />
+          <ScalarProperty Name="desc_cat" ColumnName="desc_cat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Editoriales">
+      <EntityTypeMapping TypeName="LibroOnlineModel.Editoriales">
+        <MappingFragment StoreEntitySet="Editoriales">
+          <ScalarProperty Name="id_edit" ColumnName="id_edit" />
+          <ScalarProperty Name="desc_edit" ColumnName="desc_edit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Idiomas">
+      <EntityTypeMapping TypeName="LibroOnlineModel.Idiomas">
+        <MappingFragment StoreEntitySet="Idiomas">
+          <ScalarProperty Name="id_idiom" ColumnName="id_idiom" />
+          <ScalarProperty Name="desc_idiom" ColumnName="desc_idiom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Libro_tienda">
+      <EntityTypeMapping TypeName="LibroOnlineModel.Libro_tienda">
+        <MappingFragment StoreEntitySet="Libro_tienda">
+          <ScalarProperty Name="isbnfk" ColumnName="isbnfk" />
+          <ScalarProperty Name="id_tienda" ColumnName="id_tienda" />
+          <ScalarProperty Name="urllibro" ColumnName="urllibro" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="idlb" ColumnName="idlb" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Libros">
+      <EntityTypeMapping TypeName="LibroOnlineModel.Libros">
+        <MappingFragment StoreEntitySet="Libros">
+          <ScalarProperty Name="isbn" ColumnName="isbn" />
+          <ScalarProperty Name="desc_libro" ColumnName="desc_libro" />
+          <ScalarProperty Name="autor" ColumnName="autor" />
+          <ScalarProperty Name="editorial" ColumnName="editorial" />
+          <ScalarProperty Name="idioma" ColumnName="idioma" />
+          <ScalarProperty Name="categoria" ColumnName="categoria" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="tapa" ColumnName="tapa" />
+          <ScalarProperty Name="sagas" ColumnName="sagas" />
+          <ScalarProperty Name="urlimagen" ColumnName="urlimagen" />
+          <ScalarProperty Name="npaginas" ColumnName="npaginas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nacionalidades">
+      <EntityTypeMapping TypeName="LibroOnlineModel.Nacionalidades">
+        <MappingFragment StoreEntitySet="Nacionalidades">
+          <ScalarProperty Name="id_nacion" ColumnName="id_nacion" />
+          <ScalarProperty Name="tipo_nacionalidad" ColumnName="tipo_nacionalidad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sagas">
+      <EntityTypeMapping TypeName="LibroOnlineModel.Sagas">
+        <MappingFragment StoreEntitySet="Sagas">
+          <ScalarProperty Name="id_sagas" ColumnName="id_sagas" />
+          <ScalarProperty Name="nombre_saga" ColumnName="nombre_saga" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tapa">
+      <EntityTypeMapping TypeName="LibroOnlineModel.Tapa">
+        <MappingFragment StoreEntitySet="Tapa">
+          <ScalarProperty Name="id_tapa" ColumnName="id_tapa" />
+          <ScalarProperty Name="nom_tapa" ColumnName="nom_tapa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tiendas">
+      <EntityTypeMapping TypeName="LibroOnlineModel.Tiendas">
+        <MappingFragment StoreEntitySet="Tiendas">
+          <ScalarProperty Name="id_tienda" ColumnName="id_tienda" />
+          <ScalarProperty Name="desc_tienda" ColumnName="desc_tienda" />
+          <ScalarProperty Name="direc_tienda" ColumnName="direc_tienda" />
+          <ScalarProperty Name="tipo_tienda" ColumnName="tipo_tienda" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipo_Libro">
+      <EntityTypeMapping TypeName="LibroOnlineModel.Tipo_Libro">
+        <MappingFragment StoreEntitySet="Tipo_Libro">
+          <ScalarProperty Name="id_tipo" ColumnName="id_tipo" />
+          <ScalarProperty Name="desc_tipo" ColumnName="desc_tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tipo_Tienda">
+      <EntityTypeMapping TypeName="LibroOnlineModel.Tipo_Tienda">
+        <MappingFragment StoreEntitySet="Tipo_Tienda">
+          <ScalarProperty Name="id_tipo" ColumnName="id_tipo" />
+          <ScalarProperty Name="desc_tipo" ColumnName="desc_tipo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

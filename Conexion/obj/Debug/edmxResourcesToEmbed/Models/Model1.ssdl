@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibroOnlineModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Autores">
+    <Key>
+      <PropertyRef Name="id_autor" />
+    </Key>
+    <Property Name="id_autor" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nom_autor" Type="varchar" MaxLength="35" />
+    <Property Name="nacionalidad" Type="int" />
+  </EntityType>
+  <EntityType Name="Categorias">
+    <Key>
+      <PropertyRef Name="id_cat" />
+    </Key>
+    <Property Name="id_cat" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="desc_cat" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Editoriales">
+    <Key>
+      <PropertyRef Name="id_edit" />
+    </Key>
+    <Property Name="id_edit" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="desc_edit" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="Idiomas">
+    <Key>
+      <PropertyRef Name="id_idiom" />
+    </Key>
+    <Property Name="id_idiom" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="desc_idiom" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Libro_tienda">
+    <Key>
+      <PropertyRef Name="idlb" />
+    </Key>
+    <Property Name="isbnfk" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="id_tienda" Type="int" Nullable="false" />
+    <Property Name="urllibro" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="precio" Type="int" Nullable="false" />
+    <Property Name="idlb" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Libros">
+    <Key>
+      <PropertyRef Name="isbn" />
+    </Key>
+    <Property Name="isbn" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="desc_libro" Type="varchar" MaxLength="50" />
+    <Property Name="autor" Type="int" Nullable="false" />
+    <Property Name="editorial" Type="int" Nullable="false" />
+    <Property Name="idioma" Type="int" />
+    <Property Name="categoria" Type="int" Nullable="false" />
+    <Property Name="tipo" Type="int" />
+    <Property Name="tapa" Type="int" />
+    <Property Name="sagas" Type="int" />
+    <Property Name="urlimagen" Type="varchar" MaxLength="300" Nullable="false" />
+    <Property Name="npaginas" Type="int" />
+  </EntityType>
+  <EntityType Name="Nacionalidades">
+    <Key>
+      <PropertyRef Name="id_nacion" />
+    </Key>
+    <Property Name="id_nacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="tipo_nacionalidad" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Sagas">
+    <Key>
+      <PropertyRef Name="id_sagas" />
+    </Key>
+    <Property Name="id_sagas" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre_saga" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Tapa">
+    <Key>
+      <PropertyRef Name="id_tapa" />
+    </Key>
+    <Property Name="id_tapa" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nom_tapa" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Tiendas">
+    <Key>
+      <PropertyRef Name="id_tienda" />
+    </Key>
+    <Property Name="id_tienda" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="desc_tienda" Type="varchar" MaxLength="25" />
+    <Property Name="direc_tienda" Type="varchar" MaxLength="50" />
+    <Property Name="tipo_tienda" Type="int" />
+  </EntityType>
+  <EntityType Name="Tipo_Libro">
+    <Key>
+      <PropertyRef Name="id_tipo" />
+    </Key>
+    <Property Name="id_tipo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="desc_tipo" Type="varchar" MaxLength="15" />
+  </EntityType>
+  <EntityType Name="Tipo_Tienda">
+    <Key>
+      <PropertyRef Name="id_tipo" />
+    </Key>
+    <Property Name="id_tipo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="desc_tipo" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK_Autores_Nacionalidad">
+    <End Role="Nacionalidades" Type="Self.Nacionalidades" Multiplicity="0..1" />
+    <End Role="Autores" Type="Self.Autores" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nacionalidades">
+        <PropertyRef Name="id_nacion" />
+      </Principal>
+      <Dependent Role="Autores">
+        <PropertyRef Name="nacionalidad" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Libro_tienda_Libros1">
+    <End Role="Libros" Type="Self.Libros" Multiplicity="1" />
+    <End Role="Libro_tienda" Type="Self.Libro_tienda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Libros">
+        <PropertyRef Name="isbn" />
+      </Principal>
+      <Dependent Role="Libro_tienda">
+        <PropertyRef Name="isbnfk" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Libro_tienda_Tiendas1">
+    <End Role="Tiendas" Type="Self.Tiendas" Multiplicity="1" />
+    <End Role="Libro_tienda" Type="Self.Libro_tienda" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tiendas">
+        <PropertyRef Name="id_tienda" />
+      </Principal>
+      <Dependent Role="Libro_tienda">
+        <PropertyRef Name="id_tienda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Libros_Autores">
+    <End Role="Autores" Type="Self.Autores" Multiplicity="1" />
+    <End Role="Libros" Type="Self.Libros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Autores">
+        <PropertyRef Name="id_autor" />
+      </Principal>
+      <Dependent Role="Libros">
+        <PropertyRef Name="autor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Libros_Categorias">
+    <End Role="Categorias" Type="Self.Categorias" Multiplicity="1" />
+    <End Role="Libros" Type="Self.Libros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Categorias">
+        <PropertyRef Name="id_cat" />
+      </Principal>
+      <Dependent Role="Libros">
+        <PropertyRef Name="categoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Libros_Editoriales">
+    <End Role="Editoriales" Type="Self.Editoriales" Multiplicity="1" />
+    <End Role="Libros" Type="Self.Libros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Editoriales">
+        <PropertyRef Name="id_edit" />
+      </Principal>
+      <Dependent Role="Libros">
+        <PropertyRef Name="editorial" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Libros_Idiomas">
+    <End Role="Idiomas" Type="Self.Idiomas" Multiplicity="0..1" />
+    <End Role="Libros" Type="Self.Libros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Idiomas">
+        <PropertyRef Name="id_idiom" />
+      </Principal>
+      <Dependent Role="Libros">
+        <PropertyRef Name="idioma" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Libros_Sagas">
+    <End Role="Sagas" Type="Self.Sagas" Multiplicity="0..1" />
+    <End Role="Libros" Type="Self.Libros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sagas">
+        <PropertyRef Name="id_sagas" />
+      </Principal>
+      <Dependent Role="Libros">
+        <PropertyRef Name="sagas" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Libros_Tapa">
+    <End Role="Tapa" Type="Self.Tapa" Multiplicity="0..1" />
+    <End Role="Libros" Type="Self.Libros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tapa">
+        <PropertyRef Name="id_tapa" />
+      </Principal>
+      <Dependent Role="Libros">
+        <PropertyRef Name="tapa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Libros_Tipo_Libro">
+    <End Role="Tipo_Libro" Type="Self.Tipo_Libro" Multiplicity="0..1" />
+    <End Role="Libros" Type="Self.Libros" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Libro">
+        <PropertyRef Name="id_tipo" />
+      </Principal>
+      <Dependent Role="Libros">
+        <PropertyRef Name="tipo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tiendas_Tipo_Tienda">
+    <End Role="Tipo_Tienda" Type="Self.Tipo_Tienda" Multiplicity="0..1" />
+    <End Role="Tiendas" Type="Self.Tiendas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Tipo_Tienda">
+        <PropertyRef Name="id_tipo" />
+      </Principal>
+      <Dependent Role="Tiendas">
+        <PropertyRef Name="tipo_tienda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LibroOnlineModelStoreContainer">
+    <EntitySet Name="Autores" EntityType="Self.Autores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Categorias" EntityType="Self.Categorias" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Editoriales" EntityType="Self.Editoriales" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Idiomas" EntityType="Self.Idiomas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Libro_tienda" EntityType="Self.Libro_tienda" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Libros" EntityType="Self.Libros" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Nacionalidades" EntityType="Self.Nacionalidades" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Sagas" EntityType="Self.Sagas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tapa" EntityType="Self.Tapa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tiendas" EntityType="Self.Tiendas" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tipo_Libro" EntityType="Self.Tipo_Libro" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Tipo_Tienda" EntityType="Self.Tipo_Tienda" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Autores_Nacionalidad" Association="Self.FK_Autores_Nacionalidad">
+      <End Role="Nacionalidades" EntitySet="Nacionalidades" />
+      <End Role="Autores" EntitySet="Autores" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Libro_tienda_Libros1" Association="Self.FK_Libro_tienda_Libros1">
+      <End Role="Libros" EntitySet="Libros" />
+      <End Role="Libro_tienda" EntitySet="Libro_tienda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Libro_tienda_Tiendas1" Association="Self.FK_Libro_tienda_Tiendas1">
+      <End Role="Tiendas" EntitySet="Tiendas" />
+      <End Role="Libro_tienda" EntitySet="Libro_tienda" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Libros_Autores" Association="Self.FK_Libros_Autores">
+      <End Role="Autores" EntitySet="Autores" />
+      <End Role="Libros" EntitySet="Libros" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Libros_Categorias" Association="Self.FK_Libros_Categorias">
+      <End Role="Categorias" EntitySet="Categorias" />
+      <End Role="Libros" EntitySet="Libros" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Libros_Editoriales" Association="Self.FK_Libros_Editoriales">
+      <End Role="Editoriales" EntitySet="Editoriales" />
+      <End Role="Libros" EntitySet="Libros" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Libros_Idiomas" Association="Self.FK_Libros_Idiomas">
+      <End Role="Idiomas" EntitySet="Idiomas" />
+      <End Role="Libros" EntitySet="Libros" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Libros_Sagas" Association="Self.FK_Libros_Sagas">
+      <End Role="Sagas" EntitySet="Sagas" />
+      <End Role="Libros" EntitySet="Libros" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Libros_Tapa" Association="Self.FK_Libros_Tapa">
+      <End Role="Tapa" EntitySet="Tapa" />
+      <End Role="Libros" EntitySet="Libros" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Libros_Tipo_Libro" Association="Self.FK_Libros_Tipo_Libro">
+      <End Role="Tipo_Libro" EntitySet="Tipo_Libro" />
+      <End Role="Libros" EntitySet="Libros" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tiendas_Tipo_Tienda" Association="Self.FK_Tiendas_Tipo_Tienda">
+      <End Role="Tipo_Tienda" EntitySet="Tipo_Tienda" />
+      <End Role="Tiendas" EntitySet="Tiendas" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
